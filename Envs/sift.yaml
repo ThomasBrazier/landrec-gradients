@@ -1,0 +1,6 @@
+name: sift
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - sift4g

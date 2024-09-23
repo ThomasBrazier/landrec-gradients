@@ -1,0 +1,18 @@
+# # Set a global ggplot theme
+ggplot2::theme_update(axis.line = element_line(colour = "black"),
+                      panel.grid.major = element_blank(),
+                      panel.grid.minor = element_blank(),
+                      panel.border = element_blank(),
+                      panel.background = element_blank(),
+                      # panel.background = element_blank(),
+                      plot.title = element_text(color="black", size=14, face="bold",hjust = 0.5),
+                      axis.title.x = element_text(color="black", size=14),
+                      axis.title.y = element_text(color="black", size=14),
+                      axis.text=element_text(size=14, colour="black"),
+                      legend.key = element_rect(fill = "white", colour = "white", linewidth = 1),
+                      legend.key.height = unit(2,"line"),
+                      legend.key.width = unit(5,"line"),
+                      legend.text=element_text(size=14),
+                      legend.title=element_text(size=14),
+                      strip.background = element_rect(colour = "Snow2", fill = "Snow2", linewidth = 1),
+                      strip.text.x = element_text(colour = "Black", face = "italic"))

@@ -1,0 +1,12 @@
+name: plink
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - plink
+  - numpy
+  - python=2.7
+  - bedtools
+  - bedops
+  - vcftools
+  - htslib
